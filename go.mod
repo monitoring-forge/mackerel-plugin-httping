@@ -2,6 +2,17 @@ module github.com/monitoring-forge/mackerel-plugin-httping
 
 go 1.25.0
 
-require github.com/jessevdk/go-flags v1.6.1
+require github.com/jessevdk/go-flags v1.6.1 // indirect
 
-require golang.org/x/sys v0.44.0 // indirect
+require github.com/stretchr/testify v1.12.1
+
+require (
+	github.com/mackerelio/checkers v0.2.1 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
+)
+
+require (
+	github.com/monitoring-forge/flagrun v0.0.8
+	github.com/montanaflynn/stats v0.12.5
+	golang.org/x/sys v0.47.0 // indirect
+)
