@@ -45,4 +45,4 @@ httping.example_rtt_ms.90_percentile    110.906144      1581488858
 
 ## Install
 
-Please download release page or `mkr plugin install kazeburo/mackerel-plugin-httping`.
+Please download release page or `mkr plugin install monitoring-forge/mackerel-plugin-httping`.
