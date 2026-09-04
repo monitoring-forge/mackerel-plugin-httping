@@ -1,15 +1,14 @@
 VERSION=0.0.4
 LDFLAGS=-ldflags "-w -s -X main.version=${VERSION}"
-GO111MODULE=on
 
 all: mackerel-plugin-httping
 
 .PHONY: mackerel-plugin-httping linux check lint
 
-mackerel-plugin-httping: main.go
+mackerel-plugin-httping: *.go
 	go build $(LDFLAGS) -o mackerel-plugin-httping
 
-linux: main.go
+linux: *.go
 	GOOS=linux GOARCH=amd64 go build $(LDFLAGS) -o mackerel-plugin-httping
 
 check:
