@@ -13,6 +13,6 @@ require (
 
 require (
 	github.com/monitoring-forge/flagrun v0.0.10
-	github.com/montanaflynn/stats v0.12.6
+	github.com/montanaflynn/stats v0.12.7
 	golang.org/x/sys v0.48.0 // indirect
 )
