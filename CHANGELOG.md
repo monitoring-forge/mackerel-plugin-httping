@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.0.7](https://github.com/monitoring-forge/mackerel-plugin-httping/compare/v0.0.6...v0.0.7) - 2026-11-17
+
+- ci: bump Songmu/tagpr from 1.21.4 to 1.22.0 in the tagpr group by @dependabot[bot] in https://github.com/monitoring-forge/mackerel-plugin-httping/pull/30
+- go: bump golang.org/x/sys from 0.49.0 to 0.50.0 in the dependencies group by @dependabot[bot] in https://github.com/monitoring-forge/mackerel-plugin-httping/pull/31
+
 ## [v0.0.6](https://github.com/monitoring-forge/mackerel-plugin-httping/compare/v0.0.5...v0.0.6) - 2026-11-05
 
 - go: bump the dependencies group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/monitoring-forge/mackerel-plugin-httping/pull/16
